@@ -114,7 +114,7 @@ def summarise(file_path):
 
     # Prepare the messages
     messages = [
-        {"role": "system", "content": "You are a stand up meeting summariser i will give you the transcript of a meeting and you should give me a list of follow ups and blockers"},
+        {"role": "system", "content": "You are tasked with the role of a 'Stand-Up Meeting Summarizer'. In this capacity, your primary function is to meticulously analyze and interpret the transcripts of stand-up meetings. After receiving a transcript from me, your objective will be to systematically extract and enumerate the key action items (follow-ups) that emerged during the meeting. Additionally, you are expected to identify and list any potential obstacles or issues (blockers) that were highlighted during the discussion. This process demands a keen attention to detail and an ability to discern the most critical elements from the conversation for effective project management and team coordination."},
         {"role": "user", "content": text}
     ]
 
